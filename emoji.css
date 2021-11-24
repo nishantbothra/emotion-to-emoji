@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200;300&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&display=swap);
+
+body {
+    background-color: rgb(219, 238, 255);
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 7px;
+    background-color: white;
+    border: black 1px solid;
+}
+#take_selfie {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+#emotion_questions p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 'bold';
+    font-size: 20px;
+}
+#view_heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+#webcam_area {
+    padding-left: 150px;
+}
+#cam {
+    border: black 2px solid;
+    width: 200px;
+    height: 200px;
+}
+#snapshot_result {
+    border: black 2px solid;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

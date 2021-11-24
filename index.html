@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>emotion to emoji</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <link rel="stylesheet" href="emoji.css">
+    </head>
+
+    <body>
+        <center>
+            <h1>
+                Emotion To Emoji <br>
+                <span>&#128516;&nbsp;&#128515;&nbsp;&#128549;&nbsp;&#128532;&nbsp;&#128549;&nbsp;&#128519;&nbsp;&#9996;</span>
+            </h1>
+            <p id="take_selfie">Take your selfie to identify your emotion</p>
+            <div id="emotion_questions">
+                <p id="happy_line">are you HAPPY??</p>
+                <p id="angry_line">are you ANGRY??</p>
+                <p id="sad_line">are you SAD??</p>
+            </div>
+        </center>
+        <br>
+            <div class="col-md-4 col-sm-12 col-xs-12" id="webcam_area">
+                <h3 id="view_heading">Webcam View</h3>
+                    <div id="cam"></div>
+                <br>
+                <button id="snap_btn" onclick="take_snapshot()">TAKE</button>
+            </div>
+            <center>
+                <div class="col-md-4 col-sm-12 col-xs-12" id="predictions_area">
+                    <div id="prediction_one_area">
+                        <h3 id="prediction_one">Prediction 1-</h3>
+                        <p id="prediction_one_result"></p>
+                        <p id="prediction_one_emoji"></p>
+                    </div>
+                    <div id="prediction_two_area">
+                        <h3 id="prediction_two">Prediction 2-</h3>
+                        <p id="prediction_two_result"></p>
+                        <p id="prediction_two_emoji"></p>
+                    </div>
+                </div>
+            </center>
+            <div class="col-md-4 col-sm-12 col-xs-12" id="snapshot_area">
+                <h3 id="view_heading">Snapshot View</h3>
+                <div id="snapshot_result"></div>
+                <br>
+                <button id="predict_emotion_btn" onclick="predict()">PREDICT</button>
+            </div>
+            <script src="emoji.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
